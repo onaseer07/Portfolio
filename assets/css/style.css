@@ -1,0 +1,122 @@
+
+html, body,header {
+    height:100%;
+}
+a {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1d262e;
+    padding: 0;
+    letter-spacing: .1rem;
+    
+}
+a:hover {
+    color: #fff;
+    background:#1d262e; 
+}
+.active>a {
+    background:#1d262e;
+    color:#fff;
+    text-decoration: none;
+}
+button:focus{
+    border-color: transparent;
+}
+button.navbar-toggler {
+    border:0;
+}
+.navbar-toggler-icon {
+    width:2.5rem;
+    height: 3.5rem;
+}
+.navbar-brand {
+    background-color:#1d262e;
+    font-size: 46px;
+    font-family: 'Michroma', sans-serif;
+    color: #fff;
+    line-height: .9;
+    letter-spacing: 0px;
+    /* position: absolute;
+    left: 30px; */
+    height: 5rem;
+    overflow: hidden;
+    border: 0px;
+    border-color: rgba(255, 255, 255, 0.137);
+    box-shadow: 2px 0px 10px #1d262e;
+    transition: all .3s ease-in-out;
+}
+.navbar-brand:hover {
+    color: #1d262e;
+    background: transparent;
+}
+.navbar-brand:visited {
+    background-color:#1d262e;
+    font-size: 46px;
+    font-family: 'Michroma', sans-serif;
+    color: #fff;
+    line-height: .9;
+    letter-spacing: 0px;
+    /* position: absolute;
+    left: 30px; */
+    height: 5rem;
+    overflow: hidden;
+    border: 0px;
+    border-color: rgba(255, 255, 255, 0.137);
+    box-shadow: 2px 0px 10px #1d262e;
+}
+.navbar-brand:visited:hover {
+    color: #1d262e;
+    background: transparent;
+}
+#introduction {
+    background-color:transparent;
+    height: 100%;
+}
+.display-1 {
+    font-family: 'Six Caps', sans-serif;
+    font-size: 8rem;
+    letter-spacing: 2rem;
+}
+.intro{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Six Caps', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .3rem;
+}
+small {
+    font-family: 'Six Caps', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .3rem;
+}
+.aboutMe{
+    background-color:#fff;
+}
+p.lead {
+    /* background:#1d262e; */
+    font-family: 'Hind',sans-serif;
+    color: #1d262e;
+}
+.sectionHeader{
+    background:transparent;
+
+}
+.sectionHeader>div>h4 {
+    background: transparent;
+    font-family: 'Six Caps', sans-serif;
+    color:#1d262e;
+    letter-spacing: 1rem;
+    font-weight: lighter;
+}
+.skillsBelt h3{
+    background:#1d262e;
+    color:#fff;
+    opacity: .85;
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    box-shadow: 2px 0px 10px #1d262e;
+    width: 75%;
+}
