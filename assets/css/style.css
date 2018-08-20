@@ -30,15 +30,30 @@ button.navbar-toggler {
     width:2.5rem;
     height: 3.5rem;
 }
-.navbar-brand {
+.navbar-brand:visited {
     background-color:#1d262e;
     font-size: 46px;
     font-family: 'Michroma', sans-serif;
     color: #fff;
     line-height: .9;
     letter-spacing: 0px;
-    /* position: absolute;
-    left: 30px; */
+    height: 5rem;
+    overflow: hidden;
+    border: 0px;
+    border-color: rgba(255, 255, 255, 0.137);
+    box-shadow: 2px 0px 10px #1d262e;
+}
+.navbar-brand:visited:hover {
+    color: #1d262e;
+    background: transparent;
+}
+.navbar-brand:link {
+    background-color:#1d262e;
+    font-size: 46px;
+    font-family: 'Michroma', sans-serif;
+    color: #fff;
+    line-height: .9;
+    letter-spacing: 0px;
     height: 5rem;
     overflow: hidden;
     border: 0px;
@@ -47,25 +62,6 @@ button.navbar-toggler {
     transition: all .3s ease-in-out;
 }
 .navbar-brand:hover {
-    color: #1d262e;
-    background: transparent;
-}
-.navbar-brand:visited {
-    background-color:#1d262e;
-    font-size: 46px;
-    font-family: 'Michroma', sans-serif;
-    color: #fff;
-    line-height: .9;
-    letter-spacing: 0px;
-    /* position: absolute;
-    left: 30px; */
-    height: 5rem;
-    overflow: hidden;
-    border: 0px;
-    border-color: rgba(255, 255, 255, 0.137);
-    box-shadow: 2px 0px 10px #1d262e;
-}
-.navbar-brand:visited:hover {
     color: #1d262e;
     background: transparent;
 }
