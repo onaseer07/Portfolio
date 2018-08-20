@@ -15,6 +15,10 @@ a:hover {
     color: #fff;
     background:#1d262e; 
 }
+a:focus {
+    color: #fff;
+    background:#1d262e; 
+}
 .active>a {
     background:#1d262e;
     color:#fff;
@@ -106,13 +110,24 @@ p.lead {
     letter-spacing: 1rem;
     font-weight: lighter;
 }
-.skillsBelt h3{
+.skillsBelt h4{
     background:#1d262e;
     color:#fff;
-    opacity: .85;
+    opacity: 1;
     font-family: 'Montserrat', sans-serif;
+}
+.skillsBelt h3{
+    background:transparent;
+    color:#1d262e;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 hr {
     box-shadow: 2px 0px 10px #1d262e;
     width: 75%;
+}
+.stats {
+    background: #eee;
+    color:#1d262e;
 }
