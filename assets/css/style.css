@@ -2,6 +2,21 @@
 html, body,header {
     height:100%;
 }
+.va-t {
+    vertical-align: top;
+}
+.w-100 {
+    width:100%;
+}
+.w-90{
+    width:90%;
+}
+.w-80{
+    width:80%;
+}
+.w-70 {
+    width:70%;
+}
 a {
     font-family: 'Montserrat',sans-serif;
     font-size: 20px;
@@ -26,9 +41,14 @@ a:focus {
 }
 button:focus{
     border-color: transparent;
+    outline-color: #1d262e;
+    border-radius: 0;
 }
 button.navbar-toggler {
     border:0;
+}
+button.navbar-toggler:focus {
+    border-color:transparent;
 }
 .navbar-toggler-icon {
     width:2.5rem;
@@ -94,6 +114,12 @@ small {
 .aboutMe{
     background-color:#fff;
 }
+picture {
+    filter:contrast(120%) blur(.8px);
+}
+.aboutMe>.row .img-fluid {
+    filter:blur(10px);
+}
 p.lead {
     /* background:#1d262e; */
     font-family: 'Hind',sans-serif;
@@ -110,13 +136,18 @@ p.lead {
     letter-spacing: 1rem;
     font-weight: lighter;
 }
-.skillsBelt h4{
+.skillsBelt{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, transparent, #eee);
+}
+.skillsBelt .frontEndSkills h4, .backEndSkills h4, .analyticalSkills h4{
     background:#1d262e;
     color:#fff;
     opacity: 1;
     font-family: 'Montserrat', sans-serif;
 }
-.skillsBelt h3{
+.skillsBelt .frontEndSkills h3,.backEndSkills h3, .analyticalSkills h3{
     background:transparent;
     color:#1d262e;
     opacity: 1;
@@ -128,6 +159,19 @@ hr {
     width: 75%;
 }
 .stats {
-    background: #eee;
-    color:#1d262e;
+    background:#eee;
+}
+.stats h3 {
+    background: #1d262e;
+    color:#eee;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 2px 0px 10px #1d262e;
+}
+#works {
+    background:#eee;
+}
+.projectThumbnail {
+    background:#1d262e;
+    width:100%;
+    height:10rem;
 }
