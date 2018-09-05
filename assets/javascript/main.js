@@ -29,8 +29,8 @@ $(document).ready(function(){
                             .setClassToggle('#menu','fade-in')
                             .addTo(controller);
                     }else if ($(window).width() < 768) {
-                        $('#intro').css('opacity','1');
-                        $('#aboutUs').css('opacity', '1');
+                        $('#introduction').css('opacity','1');
+                        $('#aboutMe').css('opacity', '1');
                         $('#menu').css('opacity', '1');
                     }
 });
