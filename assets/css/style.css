@@ -8,6 +8,9 @@ header {
 .va-t {
     vertical-align: top;
 }
+.va-b {
+    vertical-align: bottom;
+}
 a {
     font-family: 'Montserrat',sans-serif;
     font-size: 20px;
@@ -86,6 +89,13 @@ nav {
 #introduction {
     background-color:transparent;
     height: 100%;
+    opacity: 0;
+    transition: all 1s  ease-out;
+}
+#introduction.fade-in {
+    background-color:transparent;
+    height: 100%;
+    opacity: 1;
 }
 .display-1 {
     font-family: 'Six Caps', sans-serif;
@@ -121,7 +131,13 @@ p.lead {
 }
 #aboutMe .sectionHeader{
     background: linear-gradient(to bottom, transparent, #eee);
-
+}
+#aboutMe {
+    transition: all 1.5s ease-in-out;
+    opacity: 0;
+}
+#aboutMe.fade-in {
+    opacity: 1;
 }
 .sectionHeader>div>h2 {
     background: transparent;
