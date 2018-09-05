@@ -8,6 +8,7 @@
         document.getElementById('name').value = '';
         document.getElementById('email').value = '';
         document.getElementById('message').value = '';
-        console.log("Thank You! Message successfully sent! We will contact your within 24 hours.")
+        document.getElementById('sentMsg').innerText = 'Message was successfully sent! I will contact your within 24 hours.';
+        console.log("Message was successfully sent! I will contact your within 24 hours.")
     });
 };

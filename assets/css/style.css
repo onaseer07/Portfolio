@@ -220,16 +220,17 @@ label {
 textarea {
     height: 7rem;
 }
-form button {
+#submit {
     background:#1d262e;
     color:#eee;
     font-family: 'Montserrat', sans-serif;
     font-size:24px;
     border:0;
+    cursor: pointer;
     transition: all .5s ease-in-out;
     box-shadow: 2px 0px 10px #eee;
 }
-form button:hover {
+#submit:hover {
     background:#eee;
     color:#1d262e;
     font-family: 'Montserrat', sans-serif;
