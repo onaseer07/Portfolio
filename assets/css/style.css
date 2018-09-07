@@ -11,7 +11,7 @@ header {
 .va-b {
     vertical-align: bottom;
 }
-a {
+a, ul a {
     font-family: 'Montserrat',sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -28,11 +28,16 @@ a:focus {
     color: #fff;
     background:#1d262e; 
 }
-.active>a {
+.nav a.scrolled {
+    background:#1d262e;
+    color:#fff;
+    transition: all 1s ease-in-out;
+}
+/* .active>a {
     background:#1d262e;
     color:#fff;
     text-decoration: none;
-}
+} */
 button:focus{
     border-color: transparent;
     outline-color: #1d262e;
@@ -271,30 +276,11 @@ input[type="color"]:focus {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #1d262e;
   outline: 0 none;
 }
-/* .services img {
-    width: 50%;
-} */
-/* .w-100 {
-    width:100%;
+
+@media (max-width: 768px) {
+    .nav a {
+        background:#1d262e;
+        color:#fff;
+        transition: all .3s ease-in-out;
+    }
 }
-.w-90{
-    width:90%;
-}
-.w-80{
-    width:80%;
-}
-.w-70 {
-    width:70%;
-}
-.w-70 {
-    width:70%;
-}
-.w-70 {
-    width:70%;
-}
-.w-70 {
-    width:70%;
-}
-.w-0 {
-    background: transparent;
-} */

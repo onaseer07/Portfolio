@@ -2,6 +2,13 @@ $(document).ready(function(){
         //Backstretch.js
         $.backstretch('assets/images/bg.jpg');
         
+        //Scroll event listener
+
+        $(document).scroll(function () {
+            var $nav = $('.nav a');
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+          });
+
         //scrollMagic.js
             //$(window).on("resize", function(e) {
                 if ($(window).width() >= 768) {
