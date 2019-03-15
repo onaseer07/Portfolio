@@ -1,8 +1,12 @@
 
 html, body {
-    height:100%
+    height:100%;
+    overflow-x: hidden;
 }
 
+header {
+    height: 30%;
+}
 .va-t {
     vertical-align: top;
 }
@@ -29,7 +33,7 @@ a:focus {
 .nav a.scrolled {
     background:#1d262e;
     color:#fff;
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 /* .active>a {
     background:#1d262e;
@@ -136,7 +140,7 @@ p.lead {
     background: linear-gradient(to bottom, transparent, #eee);
 }
 #aboutMe {
-    transition: all 1.5s ease-in-out;
+    transition: all .5s ease-in-out;
     opacity: 0;
 }
 #aboutMe.fade-in {
