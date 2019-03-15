@@ -2,9 +2,7 @@
 html, body {
     height:100%
 }
-header {
-    height: 100%;
-}
+
 .va-t {
     vertical-align: top;
 }
@@ -121,7 +119,7 @@ small {
     letter-spacing: .3rem;
 }
 .aboutMe{
-    background-color:#1d262e;
+    background-color:transparent;
 }
 picture {
     filter:contrast(120%) blur(.8px);
@@ -132,7 +130,7 @@ picture {
 p.lead {
     /* background:#1d262e; */
     font-family: 'Montserrat',sans-serif;
-    color: #eee;
+    color: #1d262e;
 }
 #aboutMe .sectionHeader{
     background: linear-gradient(to bottom, transparent, #eee);

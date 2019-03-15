@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Full Stack Developer | UI Focused</title>
+    <title>Web Developer</title>
     <link rel="shortcut icon" href="assets/images/favIcon.ico">
     <!--BootStrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -27,65 +27,74 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<!--Header-->
-    <header>
-        <section id="introduction" class="d-flex align-content-center justify-content-center">
-            <div class="align-self-center">
-                <h4 class="intro">Hi. I'm</h4>
-                <!-- <img src="assets/images/OsmanNaseerBrandPortrait.png"> -->
-                <h1 class="display-1">Osman Naseer</h1>
-            </div>
-        <!-- navigation begins -->
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-none pt-0 fixed-top">
-        <!-- logo -->
-        <a class="navbar-brand mt-0 p-0" href="#">o<br>∩</a>
-        <!-- hamburger toggler -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>  
-        <!-- links   -->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
-            <ul class="nav justify-content-center mt-3">
-                <li class="nav-item">
-                <a class="nav-link" href="#intro">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#aboutMe">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#works">Works</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+<!--aboutMe Header-->
+    <aboutme>
+        <div id="introduction">
+            <wrapper class="d-flex align-content-center justify-content-center">
+                <h4 class="intro d-flex align-content-center justify-content-center">Hi. I'm</h4>
+                <h1 class="display-1 d-flex align-content-center justify-content-center">Osman Naseer</h1>
+            </wrapper>
         </div>
-        </nav>
+        <description>
+            <div class="row aboutMe">
+                <div class="col-lg-3 d-flex justify-content-lg-end justify-content-center">
+                </div>
+                <div class="col-lg-6 d-flex justify-content-lg-center align-items-center">
+
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </description> 
+    </aboutme>
 <!-- navigation ends -->
-        </section>  
-    </header>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-none pt-0 fixed-top">
+            <!-- logo -->
+            <a class="navbar-brand mt-0 p-0" href="#">o<br>∩</a>
+            <!-- hamburger toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+            <!-- links   -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+                <ul class="nav justify-content-center mt-3">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 <!--Main-->
     <main>
 <!--aboutMe & skilsBelt begins-->
         <section id="aboutMe">
-            <aboutHeader class="row sectionHeader pb-3">
+            <aboutHeader class="row sectionHeader p-3">
                 <div class="col-lg-12 d-flex justify-content-center align-items-center">
                     <h2 class="display-2">What I Do<br><hr></h2> 
                 </div>
+                <mission class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3">
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="text-center lead p-3 d-flex align-content-center justify-content-center">
+                                    I build applications that connect resources to information at the right time in the right format. 
+                                    Decision-making is easier now with platforms I develop to improve processes, productivity, and cash flow.
+                                </p>
+                            </div>
+                            <div class="col-lg-3">
+                            </div>
+                        </div>
+                    </mission>
             </aboutHeader>
-            <aboutDescription>
-                <div class="row aboutMe">
-                        <div class="col-lg-3 d-flex justify-content-lg-end justify-content-md-center">
-                        </div>
-                        <div class="col-lg-6 d-flex justify-content-lg-center align-items-center">
-                            <p class="text-center lead p-3">
-                                I build applications that connect resources to information at the right time in the right format. 
-                                Decision-making is easier now with platforms I develop to improve processes, productivity, and cash flow.
-                            </p>
-                        </div>
-                        <div class="col-lg-3"></div>
-                    </div>
-            </aboutDescription>
             <div class="container-fluid">
                 <!-- <div class="row">
                     <div><img class="img-fluid va-b" src="assets/images/mainFadeInB.png"></div>
