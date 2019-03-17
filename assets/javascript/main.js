@@ -3,7 +3,6 @@ $(document).ready(function(){
         $.backstretch('assets/images/bg.jpg');
         
         //Scroll event listener
-
         $(document).scroll(function () {
             var $nav = $('.nav a');
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
@@ -35,7 +34,7 @@ $(document).ready(function(){
                         })
                             .setClassToggle('#menu','fade-in')
                             .addTo(controller);
-                    }else if ($(window).width() < 768) {
+                } else if ($(window).width() < 768) {
                         $('#introduction').css('opacity','1');
                         $('#aboutMe').css('opacity', '1');
                         $('#menu').css('opacity', '1');
