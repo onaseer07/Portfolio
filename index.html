@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Web Developer</title>
+    <title>Osman Naseer | Full Stack Developer</title>
     <link rel="shortcut icon" href="assets/images/favIcon.ico">
     <!--BootStrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -27,85 +27,73 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<!--aboutMe Header-->
+<!--Header-->
     <header>
-    </header>
-    <aboutme>
-        <div id="introduction">
-            <wrapper class="d-flex justify-content-center align-content-center">
+        <section id="introduction" class="d-flex align-content-center justify-content-center">
+            <div class="align-self-center">
                 <h4 class="intro">Hi. I'm</h4>
+                <!-- <img src="assets/images/OsmanNaseerBrandPortrait.png"> -->
                 <h1 class="display-1">Osman Naseer</h1>
-            </wrapper>
+            </div>
+        <!-- navigation begins -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-none pt-0 fixed-top">
+        <!-- logo -->
+        <a class="navbar-brand mt-0 p-0" href="#">o<br>∩</a>
+        <!-- hamburger toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>  
+        <!-- links   -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+            <ul class="nav justify-content-center mt-3">
+                <li class="nav-item">
+                <a class="nav-link" href="#intro">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#works">Works</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-        <!-- <description>
-            <div class="row aboutMe">
-                <div class="col-lg-3 d-flex justify-content-lg-end justify-content-center">
-                </div>
-                <div class="col-lg-6 d-flex justify-content-lg-center align-items-center">
-
-                </div>
-                <div class="col-lg-3"></div>
-            </div>
-        </description>  -->
-    </aboutme>
-<!-- navigation ends -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-none pt-0 fixed-top">
-            <!-- logo -->
-            <a class="navbar-brand mt-0 p-0" href="#">o<br>∩</a>
-            <!-- hamburger toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>  
-            <!-- links   -->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
-                <ul class="nav justify-content-center mt-3">
-                    <li class="nav-item">
-                    <a class="nav-link" href="#intro">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#aboutMe">About</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#works">Works</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
         </nav>
+<!-- navigation ends -->
+        </section>  
+    </header>
 <!--Main-->
     <main>
 <!--aboutMe & skilsBelt begins-->
         <section id="aboutMe">
-            <aboutHeader class="row sectionHeader p-3">
-                <div class="col-lg-12 d-flex justify-content-center align-items-center">
-                    <h2 class="display-2">What I Do<br><hr></h2> 
-                </div>
-                <mission class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-3">
-                        </div>
-                        <div class="col-lg-6">
-                            <p class="text-center lead p-3 d-flex align-content-center justify-content-center">
-                                I build applications that connect resources to information at the right time in the right format. 
-                                Decision-making is easier now with platforms I develop to improve processes, productivity, and cash flow.
-                            </p>
-                        </div>
-                        <div class="col-lg-3">
-                        </div>
-                    </div>
-                </mission>
-            </aboutHeader>
             <div class="container-fluid">
-                <!-- <div class="row">
-                    <div><img class="img-fluid va-b" src="assets/images/mainFadeInB.png"></div>
+                <div class="row">
+                    <!-- <div><img class="img-fluid va-b" src="assets/images/mainFadeInB.png"></div> -->
+                </div>
+                <div class="row sectionHeader">
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center">
+                        <h2 class="display-2">What I Do<br><hr></h2> 
+                    </div>
+                </div>
+                <div class="row aboutMe">
+                    <div class="col-lg-3 d-flex justify-content-lg-end justify-content-md-center">
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-lg-center align-items-center">
+                        <p class="text-center lead p-3">I build applications that connect resources to information at the right time in the right format. 
+                            Decision-making is easier now with platforms I develop to improve processes, productivity, and cash flow.</p><br><br>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+                <div class="row">
+                    <!-- <div><img class="img-fluid va-t" src="assets/images/mainFadeOutB.png"></div> -->
+                </div>
+                <!-- <div class="row sectionHeader">
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center">
+                        <h2 class="display-2">What I Do<br><hr></h2> 
+                    </div>
                 </div> -->
-
-                <!-- <div class="row">
-                    <div><img class="img-fluid va-t" src="assets/images/mainFadeOutB.png"></div>
-                </div> -->
-
                 <div class="row bg-gray services p-5">
                     <div class="col-lg-4">
                         <h3 class="display-5 text-center bg-gray p-3">Front-End</h3>
@@ -135,6 +123,29 @@
                         </div>  
                     </div>
                 </div>
+                <!-- <div class="row skillsBelt text-center">
+                    <div class="col-md-4 frontEndSkills">
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">HTML<i class="fab fa-html5"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">CSS <i class="fab fa-css3"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">JavaScript <i class="fab fa-js"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">ReactJS<i class="fab fa-react"></i></h4></div>
+                    </div>
+                    <div class="col-md-4 backEndSkills">
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">mongoDb <i class="devicon-mongodb-plain-wordmark"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">express <i class="devicon-express-original"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">Node.js <i class="devicon-nodejs-plain"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">PHP <i class="devicon-php-plain"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">mySQL <i class="devicon-mysql-plain"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">Sequelize <i class="devicon-sequelize-plain"></i></h4></div>
+                    </div>
+                    <div class="col-md-4 analyticalSkills">
+                        
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">D3.js <i class="devicon-d3js-plain"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">Tableau <i class="far fa-chart-bar"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">Excel <i class="fas fa-table"></i></h4></div>
+                        <div class="mb-3"><h4 class="display-5  p-0 m-0">SQL <i class="fas fa-database"></i></h4></div>
+                    </div>
+                </div> -->
                 <div class="stats row shadow-sm">
                     <div class="col-lg-3">
                         <h3 class="text-center display-4">120<br><small>days</small></h3>
@@ -151,28 +162,30 @@
                 </div>
             </div>
         </section>
-<!--aboutMe & skilsBelt ends-->
-        <section id="works" class="p-lg-5">
-            <div class="container-fluid p-lg-5">
-                <div class="row sectionHeader">
-                    <div class="col-lg-12">
-                        <h1 class="display-2 text-center">Works<br></h1> 
-                    </div>
+    <!--aboutMe & skilsBelt ends-->
+    <section id="works" class="p-lg-5">
+        <div class="container-fluid p-lg-5">
+            <div class="row sectionHeader">
+                <div class="col-lg-12">
+                    <h1 class="display-2 text-center">Works<br></h1> 
                 </div>
-                <div class="row">
-                    <div class="col-lg-12 stage">
-                        <div class="container text-center">
-                            <div class="col-lg-12 projectThumbnail p-lg-3 mb-3"><a href="https://www.halal5.com"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/Halal5T.jpg" alt="Halal5.com | A Full-Stack Project"></a></div>
-                            <div class="col-lg-12 projectThumbnail p-lg-3 mb-3"><a href="https://onaseer07.github.io/Project1/"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/gameHuntT.jpg" alt="Game Hunt | A Full-Stack Project"></a></div>
-                            <div class="col-lg-12 projectThumbnail p-lg-3 mb-3"><a href="https://pixelforest.herokuapp.com/"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/pixelForestT.jpg" alt="Pixel Forest | Node.js App"></a></div>
-                            <div class="col-lg-12 projectThumbnail p-lg-3 mb-3"><a href="https://github.com/onaseer07/bamazon"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/BamazonT.jpg" alt="Bamazon Store Front | Node.js MySQL App"></a></div>
-                            <div class="col-lg-12 projectThumbnail p-lg-3 mb-3"><a href="https://onaseer07.github.io/Train_Schedule/"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/trainAppT.jpg" alt="Train Schedule Dashboard | Firebase"></a></div>   
-                            <div class="col-lg-12 projectThumbnail p-lg-3 mb-3"><a href="https://salty-ocean-78255.herokuapp.com/"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/WSJnewsT.jpg" alt="WSJ News Central App | Full Stack Node.Js MongoDb App"></a></div>   
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 stage">
+                    <div class="container text-center">
+                        <div class="col-lg-12  p-lg-3 mb-3"><a href="https://www.reesethebarber.com"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/rtbarberT.jpg" alt="reesethebarber.com | Serverless Web App"></a></div>
+                        <div class="col-lg-12  p-lg-3 mb-3"><a href="https://wwww.centrexsolutions.com"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/centrexT.jpg" alt="Centrex Solutions | Serverless Web App"></a></div>
+                        <div class="col-lg-12  p-lg-3 mb-3"><a href="https://www.halal5.com"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/Halal5T.jpg" alt="Halal5.com | Serverless Web App"></a></div>
+                        <div class="col-lg-12  p-lg-3 mb-3"><a href="https://onaseer07.github.io/Project1/"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/gameHuntT.jpg" alt="Game Hunt | A Full-Stack Project"></a></div>
+                        <div class="col-lg-12  p-lg-3 mb-3"><a href="https://pixelforest.herokuapp.com/"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/pixelForestT.jpg" alt="Pixel Forest | Node.js App"></a></div>
+                        <div class="col-lg-12  p-lg-3 mb-3"><a href="https://github.com/onaseer07/bamazon"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/BamazonT.jpg" alt="Bamazon Store Front | Node.js MySQL App"></a></div>
+                        <div class="col-lg-12  p-lg-3 mb-3"><a href="https://onaseer07.github.io/Train_Schedule/"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/trainAppT.jpg" alt="Train Schedule Dashboard | Firebase"></a></div>   
+                        <div class="col-lg-12  p-lg-3 mb-3"><a href="https://salty-ocean-78255.herokuapp.com/"><img class="img-fluid shadow-lg " src="assets/images/portfolioThumbnail/WSJnewsT.jpg" alt="WSJ News Central App | Full Stack Node.Js MongoDb App"></a></div>   
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     </main>
 <!--Footer-->
     <footer>
@@ -207,12 +220,8 @@
                         </form>
                     </div>
                     <div class="col-lg-6 col-md-12 socialLinks d-flex justify-content-center align-items-center">
-                        <a href="https://www.linkedin.com/in/osman-naseer-37910733/">
-                            <h3 class="display-3"><i class="fab fa-linkedin-in m-3"></i></h3>
-                        </a>    
-                        <a href="https://github.com/onaseer07">
-                            <h3 class="display-3"><i class="fab fa-github"></i></h3>
-                        </a>       
+                        <a href="https://www.linkedin.com/in/osman-naseer-37910733/"><h3 class="display-3"><i class="fab fa-linkedin-in m-3"></i></h3></a>    
+                        <a href="https://github.com/onaseer07"><h3 class="display-3"><i class="fab fa-github"></i></h3></a>      
                     </div>
                 </div>
                 <div class="row credits">
@@ -231,4 +240,5 @@
 
 </body>
 </html>
+
 

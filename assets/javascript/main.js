@@ -4,9 +4,14 @@ $(document).ready(function(){
         
         //Scroll event listener
         $(document).scroll(function () {
-            var $nav = $('.nav a');
+            //storing variable nav links
+            let $nav = $('.nav a');
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
           });
+        
+        //if the scroll position-x is higher than 1rem or the width is smaller than 567px
+        // then make the logo smaller
+
 
         //scrollMagic.js
             //$(window).on("resize", function(e) {

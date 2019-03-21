@@ -1,11 +1,8 @@
-
 html, body {
-    height:100%;
-    overflow-x: hidden;
+    height:100%
 }
-
 header {
-    height: 40%;
+    height: 100%;
 }
 .va-t {
     vertical-align: top;
@@ -93,15 +90,19 @@ nav {
     color: #1d262e;
     background: transparent;
 }
+
+.brand-scrolled {
+    height: 1rem;
+}
 #introduction {
     background-color:transparent;
-    height: 60%;
+    height: 100%;
     opacity: 0;
     transition: all 1s  ease-out;
 }
 #introduction.fade-in {
     background-color:transparent;
-    height: 60%;
+    height: 100%;
     opacity: 1;
 }
 .display-1 {
@@ -123,7 +124,7 @@ small {
     letter-spacing: .3rem;
 }
 .aboutMe{
-    background-color:transparent;
+    background-color:#eee;
 }
 picture {
     filter:contrast(120%) blur(.8px);
@@ -140,7 +141,7 @@ p.lead {
     background: linear-gradient(to bottom, transparent, #eee);
 }
 #aboutMe {
-    transition: all .5s ease-in-out;
+    transition: all 1.5s ease-in-out;
     opacity: 0;
 }
 #aboutMe.fade-in {
